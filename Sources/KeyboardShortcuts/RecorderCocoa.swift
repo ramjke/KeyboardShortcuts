@@ -99,7 +99,7 @@ extension KeyboardShortcuts {
 			setContentHuggingPriority(.defaultHigh, for: .horizontal)
 
 			// Hide the cancel button when not showing the shortcut so the placeholder text is properly centered. Must be last.
-			self.cancelButton = (cell as? NSSearchFieldCell)?.cancelButtonCell
+			// self.cancelButton = (cell as? NSSearchFieldCell)?.cancelButtonCell
 
 			setStringValue(name: name)
 
